@@ -136,7 +136,7 @@ namespace AAToImage
 					var strs = s.Split('\n');
 					foreach (var str in strs)
 					{
-						var w = gTmp.MeasureString(str.Trim(), FONT).Width;
+						var w = gTmp.MeasureString(str, FONT).Width;
 						if (size.Width < w)
 						{
 							size.Width = w;
